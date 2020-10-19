@@ -9,8 +9,9 @@
 # include <sys/stat.h>
 # include <fcntl.h>
 
-# define BUFF_SIZE 1000
-# define EOFile 'h'
+# define BUFF_SIZE 1
+# define EOFile '~'
+
 int     get_next_line(const int fd, char **line);
 
 
